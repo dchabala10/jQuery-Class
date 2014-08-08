@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = "jquery-1.11.1.min.js" type = "text/javascript"></script>
+	</head>
+	<body>
+		<div class = "box" style = "display:none;">MY BOX</div>
+		<button class = "mybutton">Click Here!</button>
+		<script>
+
+		$(document).ready(function(){
+
+			$( ".mybutton" ).click(function() {
+ 				$('div.box').toggle();
+		
+			});
+		});
+
+
+		</script>
+	</body>
+</html>
